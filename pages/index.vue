@@ -6,12 +6,10 @@ import element from "public/svg/markbesar.vue";
 <template>
   <!-- Section Hero -->
   <navbar />
-  <main class="bg-white">
+  <main class="bg-white pt-[10rem]">
     <section class="w-full flex justify-center bg-white">
       <div class="md:container bg-white md:mt-[10rem]">
-        <div
-          class="mt-[5rem] flex flex-col md:ml-10 items-center md:items-start"
-        >
+        <div class="mt-[5rem] flex flex-col items-center md:items-start">
           <div class="">
             <h1
               class="text-black jkt font-extrabold text-4xl md:text-7xl text-center lg:text-start"

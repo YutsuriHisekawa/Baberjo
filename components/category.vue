@@ -13,12 +13,10 @@ import Policy from "public/svg/policy.vue";
 </script>
 <template>
   <div class="flex justify-center mt-[5rem]">
-    <div
-      class="container h-full grid grid-cols-1 lg:grid-cols-2 p-10 space-x-10"
-    >
+    <div class="container h-full grid lg:grid-cols-2 p-10 lg:space-x-10">
       <div class="flex flex-col w-full">
         <div
-          class="border-2 h-full rounded-2xl p-10 space-y-10 w-full text-sm md:text-lg"
+          class="border-2 h-full rounded-2xl p-4 md:p-10 space-y-10 w-full text-sm md:text-lg"
         >
           <!-- 1 -->
           <div class="flex justify-between">
@@ -68,16 +66,14 @@ import Policy from "public/svg/policy.vue";
           </div>
         </div>
         <h1
-          class="text-3xl text-center md:text-start md:text-5xl text-black jkt font-bold mt-10"
+          class="text-2xl text-center md:text-start md:text-5xl text-black jkt font-bold mt-10"
         >
           <span class="text-[#FACC15]">Limited time offer</span>
           That <br />
           you may also be interested
         </h1>
       </div>
-      <div
-        class="h-[10rem] lg:h-[20rem] bg-black flex justify-center rounded-3xl lg:mt-0 mt-10"
-      >
+      <div class="h-[10rem] lg:h-[20rem] bg-black rounded-3xl lg:mt-0 mt-10">
         <NuxtImg
           src="img/cukur.png"
           class="w-full h-full object-cover rounded-3xl"

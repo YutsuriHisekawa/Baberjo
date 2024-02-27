@@ -13,7 +13,7 @@ import element from "public/svg/markbesar.vue";
           class="mt-[5rem] flex flex-col md:ml-10 items-center md:items-start"
         >
           <h1
-            class="bg-white text-black jkt font-extrabold text-5xl md:text-[64px] text-center md:text-start"
+            class="bg-white text-black jkt font-extrabold text-4xl md:text-[64px] text-center md:text-start"
           >
             Refine Your Style, <br />
             Sharpen Your Look.

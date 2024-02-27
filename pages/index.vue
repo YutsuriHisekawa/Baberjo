@@ -18,7 +18,7 @@ import element from "public/svg/markbesar.vue";
             Refine Your Style, <br />
             Sharpen Your Look.
           </h1>
-          <element class="w-[25rem] md:w-auto" />
+          <element class="w-[25rem] md:w-auto lg:mt-5" />
           <vector
             class="flex absolute xl:right-[0rem] xl:top-[2rem] 2xl:right-[20rem] 2xl:top-[2rem] md:h-auto md:w-auto w-[25rem]"
           />

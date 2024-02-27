@@ -1,4 +1,3 @@
-import type { NuxtImg } from '#build/components';
 <script setup>
 import smile from "public/svg/smile.vue";
 import product from "public/svg/product.vue";

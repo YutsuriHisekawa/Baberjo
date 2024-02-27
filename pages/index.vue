@@ -41,12 +41,18 @@ import element from "public/svg/markbesar.vue";
     <!-- END CATEGORY -->
 
     <!-- Our Service  -->
-    <div class="mt-[5rem] w-full">
-      <div class="flex text-center items-center flex-col w-full">
-        <h1 class="jkt font-extrabold text-black text-4xl md:text-5xl">
-          Our Service.
-        </h1>
-        <element class="w-1/2" />
+    <div class="flex justify-center mt-[5rem] w-full h-screen">
+      <div class="container">
+        <div
+          class="flex text-center items-center lg:text-start lg:items-start flex-col w-full"
+        >
+          <h1
+            class="jkt font-extrabold text-black text-4xl md:text-5xl lg:text-7xl"
+          >
+            Our Service.
+          </h1>
+          <element class="w-1/2 lg:w-[20rem]" />
+        </div>
       </div>
 
       <Service />

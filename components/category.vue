@@ -65,14 +65,16 @@ import Policy from "public/svg/policy.vue";
           </div>
         </div>
         <h1
-          class="text-2xl text-center md:text-start md:text-5xl text-black jkt font-bold mt-10"
+          class="text-2xl text-center md:text-start md:text-5xl lg:text-3xl text-black jkt font-bold mt-10"
         >
           <span class="text-[#FACC15]">Limited time offer</span>
           That <br />
           you may also be interested
         </h1>
       </div>
-      <div class="h-[10rem] lg:h-[20rem] bg-black rounded-3xl lg:mt-0 mt-10">
+      <div
+        class="h-[10rem] xl:h-[20rem] md:h-[14rem] bg-black rounded-3xl lg:mt-0 mt-10"
+      >
         <NuxtImg
           src="img/cukur.png"
           class="w-full h-full object-cover rounded-3xl"

@@ -6,28 +6,34 @@ import element from "public/svg/markbesar.vue";
 <template>
   <!-- Section Hero -->
   <navbar />
-  <main class="bg-white pt-[10rem]">
+  <main class="bg-white pt-[10rem] md:pt-0">
     <section class="w-full flex justify-center bg-white">
-      <div class="md:container bg-white md:mt-[10rem]">
+      <div class="md:container md:mt-[10rem]">
         <div class="mt-[5rem] flex flex-col items-center md:items-start">
-          <div class="">
+          <div class="md:mx-auto xl:mx-0">
             <h1
-              class="text-black jkt font-extrabold text-4xl md:text-7xl text-center lg:text-start"
+              class="text-black jkt font-extrabold text-4xl md:text-7xl text-center xl:text-start"
             >
               Refine Your Style, <br />
               Sharpen Your Look.
             </h1>
           </div>
 
-          <element
-            class="flex w-[25rem] md:w-full lg:w-auto mt-5 md:justify-center"
-          />
+          <div class="w-full flex md:justify-center xl:justify-start">
+            <element
+              class="flex w-[25rem] md:w-full lg:w-auto mt-5 md:justify-center"
+            />
+          </div>
+
           <vector
             class="flex absolute xl:right-[0rem] xl:top-[2rem] 2xl:right-[20rem] 2xl:top-[2rem] md:h-auto md:w-auto w-[25rem]"
           />
 
           <!-- BOOK NOW  -->
-          <Booknow />
+          <div class="w-full md:p-5 xl:p-0">
+            <Booknow />
+          </div>
+
           <!-- END BOOK -->
         </div>
       </div>
@@ -39,7 +45,7 @@ import element from "public/svg/markbesar.vue";
     <!-- END CATEGORY -->
 
     <!-- Our Service  -->
-    <div class="flex justify-center mt-[5rem] w-full h-screen">
+    <div class="flex justify-center mt-[5rem] w-full">
       <div class="container">
         <div
           class="flex text-center items-center lg:text-start lg:items-start flex-col w-full"
@@ -52,9 +58,26 @@ import element from "public/svg/markbesar.vue";
           <element class="w-1/2 lg:w-[20rem]" />
         </div>
       </div>
-
-      <Service />
     </div>
+    <Service />
+    <!-- End Our Service  -->
+
+    <!-- Our Service  -->
+    <div class="flex justify-center mt-[5rem] w-full">
+      <div class="container">
+        <div
+          class="flex text-center items-center lg:text-start lg:items-start flex-col w-full"
+        >
+          <h1
+            class="jkt font-extrabold text-black text-4xl md:text-5xl lg:text-7xl"
+          >
+            Our Product
+          </h1>
+          <element class="w-1/2 lg:w-[20rem]" />
+        </div>
+      </div>
+    </div>
+    <Product />
     <!-- End Our Service  -->
   </main>
 </template>

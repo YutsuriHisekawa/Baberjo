@@ -6,9 +6,9 @@
       >
         <!-- 1 -->
         <div class="card md:w-[15rem] xl:w-96 bg-white shadow-xl">
-          <figure class="h-[25rem] w-full">
+          <figure class="xl:h-[25rem] lg:h-[15rem] h-[25rem] w-full">
             <NuxtImg
-              class="object-cover h-[25rem] w-full"
+              class="object-cover h-auto w-full"
               src="https://c0.wallpaperflare.com/preview/783/260/935/barber-barbershop-haircut-hairstyle.jpg"
             />
           </figure>
@@ -27,9 +27,9 @@
 
         <!-- 2 -->
         <div class="card md:w-[15rem] xl:w-96 bg-white shadow-xl">
-          <figure class="h-[25rem] w-full">
+          <figure class="xl:h-[25rem] lg:h-[15rem] h-[25rem] w-full">
             <NuxtImg
-              class="object-cover h-[25rem] object-right"
+              class="object-cover xl:h-[25rem] lg:h-[15rem] h-[25rem] object-right"
               src="https://media.istockphoto.com/id/522305768/photo/time-for-new-haircut.jpg?s=612x612&w=0&k=20&c=rjGGYjJiBjT1gb4F72tNhU3bud2MKTyf43r5eL7GsEk="
             />
           </figure>
@@ -48,9 +48,9 @@
 
         <!-- 3 -->
         <div class="card md:w-[15rem] xl:w-96 bg-white shadow-xl">
-          <figure class="h-[25rem] w-full">
+          <figure class="xl:h-[25rem] lg:h-[15rem] h-[25rem] w-full">
             <NuxtImg
-              class="object-cover h-[25rem]"
+              class="object-cover 2xl:h-[25rem] lg:h-[15rem] h-[25rem]"
               src="https://t3.ftcdn.net/jpg/04/29/56/32/360_F_429563255_AnI9crCdDBFmLB5TcWH4f5cKVDaJIZNJ.jpg"
             />
           </figure>

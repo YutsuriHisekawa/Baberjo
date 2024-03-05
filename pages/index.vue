@@ -79,6 +79,24 @@ import element from "public/svg/markbesar.vue";
     </div>
     <Product />
     <!-- End Our Service  -->
+
+    <!-- Our Team  -->
+    <div class="flex justify-center mt-[5rem] w-full">
+      <div class="container">
+        <div
+          class="flex text-center items-center lg:text-start lg:items-start flex-col w-full"
+        >
+          <h1
+            class="jkt font-extrabold text-black text-4xl md:text-5xl lg:text-7xl"
+          >
+            Our Team
+          </h1>
+          <element class="w-1/2 lg:w-[20rem]" />
+        </div>
+      </div>
+    </div>
+    <Team />
+    <!-- End Our Team  -->
   </main>
 </template>
 
